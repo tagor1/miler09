@@ -1,9 +1,9 @@
 ## Methods Table
 
-PHP-MPOS supports some API methods to fetch information in JSON format. This list reflects the current state of the API. All methods used are called via:
+Miningpoolhub supports some API methods to fetch information in JSON format. This list reflects the current state of the API. All methods used are called via:
 
 ```
-http://<serverURL>/index.php?page=api&action=<method>&api_key=<user_api_key>[&<argument>=<value>]
+https://[coin_name.]miningpoolhub.com/index.php?page=api&action=<method>&api_key=<user_api_key>[&<argument>=<value>]
 ```
 
 This table lists all methods and their arguments available.
@@ -12,6 +12,8 @@ This table lists all methods and their arguments available.
 
 | API Action | Arguments | Desctipion | Token | Admin |
 | ------------- |:-------------:| :-----|:-------------:|:-------------:|
+| `getminingandprofitsstatistics` | none | Get mining profits statistics | N | N |
+| `getautoswitchingandprofitsstatistics` | none | Get current auto switching info | N | N |
 | `getblockcount` | none | Get current block height in blockchain | Y | N |
 | `getblocksfound` | none | Get last N blocks found as configured in admin panel | Y | N |
 | `getblockstats` | none | Get pool block stats | Y | N |
