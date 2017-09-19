@@ -32,7 +32,7 @@ This table lists all methods and their arguments available.
 | `getuserbalance` | `id` | Fetch a users balance | Y | Y |
 | `getuserhashrate` | `id` | Fetch a users hash rate | Y | B |
 | `getusersharerate` | `id` | Fetch a users share rate | Y | B |
-| `getuserstatus` | `id` | Fetch a users overall status, both id and username work for `id`. If not admin, will fetch current users status. | Y | B |
+| `getuserstatus` | `id` | Fetch a users overall status | Y | B |
 | `getusertransactions` | `id` | Get a users transactions | Y | B |
-| `getuserworkers` | `id` | Fetch a users worker status, both id and username work for `id`. If not admin, will fetch current users workers. | Y | B |
+| `getuserworkers` | `id` | Fetch a users worker status | Y | B |
 | `public` | none | Fetch public pool statistics, no authentication required | N | N |
