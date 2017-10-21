@@ -14,6 +14,7 @@ This table lists all methods and their arguments available.
 | ------------- |:-------------:| :-----|:-------------:|:-------------:|
 | `getminingandprofitsstatistics` | none | Get mining profits statistics | N | N |
 | `getautoswitchingandprofitsstatistics` | none | Get current auto switching info | N | N |
+| `getuserallbalances` | none | Get all currency's balances | N | N |
 | `getblockcount` | none | Get current block height in blockchain | Y | N |
 | `getblocksfound` | none | Get last N blocks found as configured in admin panel | Y | N |
 | `getblockstats` | none | Get pool block stats | Y | N |
