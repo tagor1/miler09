@@ -3,7 +3,7 @@
 Miningpoolhub supports some API methods to fetch information in JSON format. This list reflects the current state of the API. All methods used are called via:
 
 ```
-https://[coin_name.]miningpoolhub.com/index.php?page=api&action=<method>&api_key=<user_api_key>[&<argument>=<value>]
+https://[<coin_name>.]miningpoolhub.com/index.php?page=api&action=<method>&api_key=<user_api_key>[&<argument>=<value>]
 ```
 
 This table lists all methods and their arguments available.
