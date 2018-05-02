@@ -35,5 +35,5 @@ This table lists all methods and their arguments available.
 | `getusersharerate` | `id` | Fetch a users share rate | Y |
 | `getuserstatus` | `id` | Fetch a users overall status | Y |
 | `getusertransactions` | `id` | Get a users transactions | Y |
-| `getuserworkers` | `id` | Fetch a users worker status | Y |
+| `getuserworkers` | none | Fetch a users worker status | Y |
 | `public` | none | Fetch public pool statistics, no authentication required | N |
